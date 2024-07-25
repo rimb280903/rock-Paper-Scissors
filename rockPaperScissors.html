@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p>Rock Paper Scissors</p>
+    <button onclick="playGame('rock')"><i class="fas fa-hand-rock"></i> Rock</button>
+    <button onclick="playGame('paper')"><i class="fas fa-hand-paper"></i> Paper</button>
+    <button onclick="playGame('scissors')"><i class="fas fa-hand-scissors"></i> Scissors</button>
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+    <button onclick="resetScore()" class="reset-button"><i class="fas fa-undo"></i> Reset Score</button>
+    <script src="script.js"></script>
+  </body>
+</html>

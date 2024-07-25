@@ -1,0 +1,51 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+button:nth-child(2) {
+  background-color: #3498db; /* Rock */
+}
+
+button:nth-child(3) {
+  background-color: #2ecc71; /* Paper */
+}
+
+button:nth-child(4) {
+  background-color: #e74c3c; /* Scissors */
+}
+
+
+button:hover {
+  background-color: #34495e; /* Hover Color for Buttons */
+}
+.reset-button{
+  background-color: blue;
+}
+
+.js-result {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.js-moves {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.js-score {
+  font-size: 20px;
+}
